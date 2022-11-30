@@ -1,5 +1,5 @@
 app:
-        name: MySQL
+        name: mysql
         code: mysql
         notify: aramanan@ecloudcontrol.com
 
@@ -19,7 +19,7 @@ app:
         - 3306
 
     volumes:
-      - claim: mysql-data
+      - claim: sql-data
         mount: /var/lib/mysql
         name: data
         size: 5Gi
