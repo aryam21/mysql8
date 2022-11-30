@@ -1,4 +1,4 @@
-app:
+    app:
         name: mysql8
         code: mysql
         notify: aramanan@ecloudcontrol.com
